@@ -313,7 +313,7 @@ declare module 'material-colors' {
   };
   export const white = "#ffffff";
   export const black = "#000000";
-  const _default: {
+  export const colors: {
       red: {
           "50": string;
           "100": string;
@@ -606,6 +606,9 @@ declare module 'material-colors' {
           "800": string;
           "900": string;
       };
+  };
+  export default colors;
+  export const textColors: {
       darkText: {
           "primary": string;
           "secondary": string;
@@ -626,8 +629,6 @@ declare module 'material-colors' {
           "active": string;
           "inactive": string;
       };
-      white: string;
-      black: string;
   };
-  export default _default;
+
 }
