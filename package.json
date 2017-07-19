@@ -39,5 +39,6 @@
     "rollup": "^0.40.2",
     "tape": "^4.6.3",
     "tmp": "0.0.31"
-  }
+  },
+  "typings": "material-colors.d.ts"
 }
